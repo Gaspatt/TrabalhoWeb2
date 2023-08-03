@@ -5,8 +5,29 @@
   margin: 0;
 }
 
+@media (max-width: 800px) {
+  .titulo a {
+    font-size: 20pt;
+    margin-left: -10px;
+  }
+
+}
+
+@media (max-width: 400px) {
+  div {
+    background-color: blue;
+  }
+}
+
 body {
   font-family: 'Inter', sans-serif;
+}
+
+#conteudo {
+  background-color: black;
+  margin: 0 auto 48px auto;
+  width: 1116px;
+  padding: 0 12px 0 12px;
 }
 
 .titulo {
@@ -107,12 +128,12 @@ li {
   text-decoration: none;
   display: block;
   text-align: left;
-  
+
 }
 
 .dropdown-content a:hover {
   background-color: #e7cea8;
-  padding-left:   10px;
+  padding-left: 10px;
   border-left: 3px solid #643f1f;
   transition: all 100ms ease;
 }
