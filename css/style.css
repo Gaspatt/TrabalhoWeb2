@@ -36,7 +36,6 @@ div {
 }
 
 .niniciais {
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -44,6 +43,33 @@ div {
   width: 100%;
 }
 
+.ainicial {
+
+}
+.ainicial img {
+  height: 163px;
+  width: 163px;
+  margin-bottom: 15px;
+}
+.ainicial span {
+
+}
+
+.niniciais .ainicial {
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  height: 240px;
+  width: 163.500;
+  margin-bottom: 20px;
+}
+.niniciais a {
+  font-weight: 500;
+  line-height: 1.1em;
+  text-decoration: none;
+  color: black;
+}
 
 .titulo {
   font-family: 'Dancing Script', cursive;
