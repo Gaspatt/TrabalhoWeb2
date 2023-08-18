@@ -5,19 +5,27 @@
   margin: 0;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 845px) {
   .titulo a {
     font-size: 20pt;
     margin-left: -10px;
   }
-
 }
 
-@media (max-width: 400px) {
-  div {
-    background-color: blue;
+@media (max-width: 1219px) {
+  #noticias #conteudo {
+    width: 1000px;
   }
 }
+@media (max-width: 1020px) {
+  #noticias #conteudo {
+    width: 800px;
+  }
+  #conteudo .niniciais {
+    justify-content: space-around;
+  }
+}
+
 
 body {
   font-family: 'Inter', sans-serif;
@@ -37,6 +45,7 @@ div {
 
 .niniciais {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
   max-width: 1200px;
@@ -115,7 +124,6 @@ picture img {
 .nrecentes {
   display: flex;
   justify-content:space-between;
-  max-width: 1300px;
   width: 100%;
   flex-wrap: wrap;
 }
