@@ -27,6 +27,9 @@
     font-size: 20pt;
     margin-left: -10px;
   }
+  .rodape{ 
+    width: 50px;
+  }
 }
 
 @media (max-width: 1219px) {
@@ -138,9 +141,14 @@ picture img {
   background: var(--branco);
   border-radius: 10px;
   height: 240px;
-  width: 300px;
+  width: 380px;
   margin-bottom: 40px;
   margin-right: 2px;
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .srecentes a {
@@ -162,15 +170,7 @@ picture img {
   box-shadow: 0px 5px transparent;
 }
 
-.naltas .alta1 img {
-  height: 97%;
-  width: 100%;
-}
 
-.salta img {
-  height: 97%;
-  width: 100%;
-}
 
 .naltas .salta {
   text-align: center;
@@ -377,6 +377,11 @@ picture img {
   width: 350px;
   margin-bottom: 40px;
   margin-right: 2px;
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .nproducao .pprodu1 {
@@ -608,6 +613,7 @@ li {
   margin-top: -5px;
   margin-left: -5px;
   color: rgb(255, 201, 86);
+  position:sticky;
 }
 
 .zoom:hover {
@@ -618,11 +624,7 @@ li {
 
 .sobre {
   background-color: rgba(0, 0, 0, 0.685);
-  color: rgb(175, 141, 255);
+  color: rgb(255, 255, 255);
   border-radius: 0px 0px 10px 10px;
-  align-items: end;
-  display: flex;
-  flex-wrap: nowrap;
-  position: absolute;
-  
+  margin-top: 50%;
 }
