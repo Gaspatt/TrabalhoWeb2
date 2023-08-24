@@ -290,6 +290,7 @@ picture img {
   height: 240px;
   width: 250px;
 }
+
 .nlancamentos .lanca4 {
   height: 380px;
   width: 280px;
@@ -317,6 +318,31 @@ picture img {
 
 .slancamentos:hover {
   box-shadow: 0px 5px transparent;
+}
+
+.publi1 img {
+  height: 163px;
+  width: 163px;
+}
+
+.nlancamentos .publi1 {
+  text-align: center;
+  background: #ffffffc4;
+  height: 210px;
+  width: 350px;
+  margin-bottom: 10%;
+  margin-left: 34%;
+  margin-right: 34%;
+  margin-top: 5%;
+}
+
+
+.publi1 a {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.1em;
+  text-decoration: none;
+  color: black;
 }
 
 .titulo {
@@ -372,6 +398,10 @@ li {
   background-color: rgb(58, 58, 97);
   border-radius: 15px;
 }
+
+
+
+
 
 .dropdown {
   float: left;
@@ -462,18 +492,21 @@ li {
   visibility: visible;
   height: 30%;
 }
+
 .breve1:hover .sobre {
   transform: translateY(-121px);
   transition: 0.3s ease-out;
   visibility: visible;
   height: 30%;
 }
+
 .breve2:hover .sobre {
   transform: translateY(-14px);
   transition: 0.3s ease-out;
   visibility: visible;
   height: 30%;
 }
+
 .breve3:hover .sobre {
   transform: translateY(-14px);
   transition: 0.3s ease-out;
@@ -487,18 +520,21 @@ li {
   visibility: visible;
   height: 30%;
 }
+
 .alta2:hover .sobre {
   transform: translateY(-14px);
   transition: 0.3s ease-out;
   visibility: visible;
   height: 30%;
 }
+
 .alta3:hover .sobre {
   transform: translateY(-14px);
   transition: 0.3s ease-out;
   visibility: visible;
   height: 30%;
 }
+
 .slancamentos:hover .sobre {
   transform: translateY(-50px);
   transition: 0.3s ease-out;
