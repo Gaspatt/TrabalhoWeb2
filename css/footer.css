@@ -5,6 +5,7 @@
     width: 100%;
     font-size: 14px;
     font-family: helvetica;
+    margin: 0px;
 }
 .rodape a{
     text-decoration: none;
@@ -16,8 +17,7 @@
 .rodape-div{
     display: flex;
     flex-wrap: wrap;
-    width:100%;
-    margin: auto;
+    margin: 0px;
     align-items: stretch;
     padding: 60px 10px 40px 10px;
 }
