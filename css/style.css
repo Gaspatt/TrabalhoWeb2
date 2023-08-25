@@ -301,7 +301,7 @@ picture img {
   border-radius: 10px;
   height: 240px;
   width: 350px;
-  margin-bottom: 40px;
+  margin-bottom: 150px;
   margin-right: 2px;
   position: relative;
   display: flex;
@@ -1200,8 +1200,8 @@ li {
 .lanca1 .sobre2 {
   background-color: rgba(255, 255, 255, 0.521);
   color: rgb(0, 0, 0);
-  margin-top: 90%;
-  margin-left: -15%;
+  margin-top: 52%;
+  margin-left: -6%;
   width: 100%;
   position: absolute;
 }
@@ -1226,7 +1226,7 @@ li {
 .lanca4 .sobre2 {
   background-color: rgba(255, 255, 255, 0.521);
   color: rgb(0, 0, 0);
-  margin-top: 70%;
+  margin-top: 140%;
   margin-left: -15%;
   width: 100%;
   position: absolute;
