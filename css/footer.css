@@ -5,7 +5,9 @@
     width: 100%;
     font-size: 14px;
     font-family: helvetica;
-    margin: 0px;
+    margin-bottom: -160%;
+    position: absolute;
+    bottom: 0;
 }
 .rodape a{
     text-decoration: none;
@@ -40,9 +42,11 @@
     .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
         width: calc(50% - 20px);
         padding: 10px;
+       
     }
     .rodape-div{
         padding: 60px 0px 40px 0px;
+
     }
 }
 
