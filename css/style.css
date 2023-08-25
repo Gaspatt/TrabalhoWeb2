@@ -14,6 +14,7 @@
   --dropdownc: rgb(116, 116, 185);
   --dropdownca: rgb(81, 81, 145);
   --classi: rgb(162, 0, 255);
+  --fonte: 'Inter', sans-serif;
 }
 
 * {
@@ -50,7 +51,7 @@
 
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--fonte);
   background-color: var(--corpo);
   position: relative;
 }
@@ -349,6 +350,486 @@ picture img {
 }
 
 
+.sfantasia img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.nfantasia .sfantasia {
+  text-align: center;
+  background: var(--branco);
+  border-radius: 10px;
+  height: 240px;
+  width: 350px;
+  margin-bottom: 150px;
+  margin-right: 2px;
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.nfantasia .fanta1 {
+  height: 280px;
+  width: 30%;
+}
+
+.nfantasia .fanta3 {
+  height: 280px;
+  width: 250px;
+}
+
+.nfantasia .fanta4 {
+  height: 380px;
+  width: 280px;
+}
+
+.nfantasia .fanta2 {
+  height: 280px;
+  width: 320px;
+}
+
+.sfantasia a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.1em;
+  text-decoration: none;
+  color: var(--preto);
+}
+
+.nfantasia {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.sfantasia:hover {
+  box-shadow: 0px 5px transparent;
+}
+
+.nlfantasia .slfantasia {
+  text-align: center;
+  background: var(--branco);
+  border-radius: 10px;
+  height: 240px;
+  width: 350px;
+  margin-bottom: 150px;
+  margin-right: 2px;
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.nlfantasia .lfanta1 {
+  height: 280px;
+  width: 30%;
+}
+
+.nlfantasia .lfanta3 {
+  height: 280px;
+  width: 250px;
+}
+
+.nlfantasia .lfanta4 {
+  height: 380px;
+  width: 280px;
+}
+
+.nlfantasia .lfanta2 {
+  height: 280px;
+  width: 320px;
+}
+
+.slfantasia a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.1em;
+  text-decoration: none;
+  color: var(--preto);
+}
+
+.nlfantasia {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.slfantasia:hover {
+  box-shadow: 0px 5px transparent;
+}
+
+
+.scomedia img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.ncomedia .scomedia {
+  text-align: center;
+  background: var(--branco);
+  border-radius: 10px;
+  height: 240px;
+  width: 350px;
+  margin-bottom: 150px;
+  margin-right: 2px;
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.ncomedia .comedi1 {
+  height: 280px;
+  width: 30%;
+}
+
+.ncomedia .comedi3 {
+  height: 280px;
+  width: 250px;
+}
+
+.ncomedia .comedi4 {
+  height: 380px;
+  width: 280px;
+}
+
+.ncomedia .comedi2 {
+  height: 280px;
+  width: 320px;
+}
+
+.scomedia a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.1em;
+  text-decoration: none;
+  color: var(--preto);
+}
+
+.ncomedia {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.scomedia:hover {
+  box-shadow: 0px 5px transparent;
+}
+
+
+.slcomedia img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.nlcomedia .slcomedia {
+  text-align: center;
+  background: var(--branco);
+  border-radius: 10px;
+  height: 240px;
+  width: 350px;
+  margin-bottom: 150px;
+  margin-right: 2px;
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.nlcomedia .lcomedi1 {
+  height: 280px;
+  width: 30%;
+}
+
+.nlcomedia .lcomedi3 {
+  height: 280px;
+  width: 250px;
+}
+
+.nlcomedia .lcomedi4 {
+  height: 380px;
+  width: 280px;
+}
+
+.nlcomedia .lcomedi2 {
+  height: 280px;
+  width: 320px;
+}
+
+.slcomedia a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.1em;
+  text-decoration: none;
+  color: var(--preto);
+}
+
+.nlcomedia {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.slcomedia:hover {
+  box-shadow: 0px 5px transparent;
+}
+
+
+.slcomedia img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.nlcomedia .slcomedia {
+  text-align: center;
+  background: var(--branco);
+  border-radius: 10px;
+  height: 240px;
+  width: 350px;
+  margin-bottom: 150px;
+  margin-right: 2px;
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.nlcomedia .lcomedi1 {
+  height: 280px;
+  width: 30%;
+}
+
+.nlcomedia .lcomedi3 {
+  height: 280px;
+  width: 250px;
+}
+
+.nlcomedia .lcomedi4 {
+  height: 380px;
+  width: 280px;
+}
+
+.nlcomedia .lcomedi2 {
+  height: 280px;
+  width: 320px;
+}
+
+.slcomedia a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.1em;
+  text-decoration: none;
+  color: var(--preto);
+}
+
+.nlcomedia {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.slcomedia:hover {
+  box-shadow: 0px 5px transparent;
+}
+
+
+.sterror img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.nterror .sterror {
+  text-align: center;
+  background: var(--branco);
+  border-radius: 10px;
+  height: 240px;
+  width: 350px;
+  margin-bottom: 150px;
+  margin-right: 2px;
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.nterror .ter1 {
+  height: 280px;
+  width: 30%;
+}
+
+.nterror .ter3 {
+  height: 280px;
+  width: 250px;
+}
+
+.nterror .ter4 {
+  height: 380px;
+  width: 280px;
+}
+
+.nterror .ter2 {
+  height: 280px;
+  width: 320px;
+}
+
+.sterror a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.1em;
+  text-decoration: none;
+  color: var(--preto);
+}
+
+.nterror {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.sterror:hover {
+  box-shadow: 0px 5px transparent;
+}
+
+
+.slterror img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.nlterror .slterror {
+  text-align: center;
+  background: var(--branco);
+  border-radius: 10px;
+  height: 240px;
+  width: 350px;
+  margin-bottom: 150px;
+  margin-right: 2px;
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.nlterror .lter1 {
+  height: 280px;
+  width: 30%;
+}
+
+.nlterror .lter3 {
+  height: 280px;
+  width: 250px;
+}
+
+.nlterror .lter4 {
+  height: 380px;
+  width: 280px;
+}
+
+.nlterror .lter2 {
+  height: 280px;
+  width: 320px;
+}
+
+.slterror a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.1em;
+  text-decoration: none;
+  color: var(--preto);
+}
+
+.nlterror {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.slterror:hover {
+  box-shadow: 0px 5px transparent;
+}
+
+
+.slterror img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.nlterror .slterror {
+  text-align: center;
+  background: var(--branco);
+  border-radius: 10px;
+  height: 240px;
+  width: 350px;
+  margin-bottom: 150px;
+  margin-right: 2px;
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.nlterror .lcomedi1 {
+  height: 280px;
+  width: 30%;
+}
+
+.nlterror .lcomedi3 {
+  height: 280px;
+  width: 250px;
+}
+
+.nlterror .lcomedi4 {
+  height: 380px;
+  width: 280px;
+}
+
+.nlterror .lcomedi2 {
+  height: 280px;
+  width: 320px;
+}
+
+.slterror a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.1em;
+  text-decoration: none;
+  color: var(--preto);
+}
+
+.nlterror {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.slterror:hover {
+  box-shadow: 0px 5px transparent;
+}
+
 
 .nproducao .produ1 img {
   height: 98%;
@@ -628,4 +1109,144 @@ li {
   color: rgb(255, 255, 255);
   border-radius: 0px 0px 10px 10px;
   margin-top: 50%;
+}
+.fanta2 .sobre2 {
+  background-color: rgba(255, 255, 255, 0.521);
+  color: rgb(0, 0, 0);
+  margin-top: 90%;
+  margin-left: -15%;
+  width: 100%;
+  position: absolute;
+}
+.fanta3 .sobre2 {
+  background-color: rgba(255, 255, 255, 0.521);
+  color: rgb(0, 0, 0);
+  margin-top: 115%;
+  margin-left: -15%;
+  width: 100%;
+  position: absolute;
+  
+}
+.lfanta3 .sobre2 {
+  background-color: rgba(255, 255, 255, 0.521);
+  color: rgb(0, 0, 0);
+  margin-top: 115%;
+  margin-left: -15%;
+  width: 100%;
+  position: absolute;
+  
+}
+.comedi2 .sobre2 {
+  background-color: rgba(255, 255, 255, 0.521);
+  color: rgb(0, 0, 0);
+  margin-top: 90%;
+  margin-left: -15%;
+  width: 100%;
+  position: absolute;
+}
+.comedi3 .sobre2 {
+  background-color: rgba(255, 255, 255, 0.521);
+  color: rgb(0, 0, 0);
+  margin-top: 115%;
+  margin-left: -15%;
+  width: 100%;
+  position: absolute;
+  
+}
+.lcomedi3 .sobre2 {
+  background-color: rgba(255, 255, 255, 0.521);
+  color: rgb(0, 0, 0);
+  margin-top: 115%;
+  margin-left: -15%;
+  width: 100%;
+  position: absolute;
+  
+}
+.ter1 .sobre2 {
+  background-color: rgba(255, 255, 255, 0.521);
+  color: rgb(0, 0, 0);
+  margin-top: 90%;
+  margin-left: -15%;
+  width: 100%;
+  position: absolute;
+}
+.ter2 .sobre2 {
+  background-color: rgba(255, 255, 255, 0.521);
+  color: rgb(0, 0, 0);
+  margin-top: 90%;
+  margin-left: -15%;
+  width: 100%;
+  position: absolute;
+}
+.ter3 .sobre2 {
+  background-color: rgba(255, 255, 255, 0.521);
+  color: rgb(0, 0, 0);
+  margin-top: 115%;
+  margin-left: -15%;
+  width: 100%;
+  position: absolute;
+  
+}
+.lter3 .sobre2 {
+  background-color: rgba(255, 255, 255, 0.521);
+  color: rgb(0, 0, 0);
+  margin-top: 70%;
+  margin-left: -15%;
+  width: 100%;
+  position: absolute;
+  
+}
+
+.lanca1 .sobre2 {
+  background-color: rgba(255, 255, 255, 0.521);
+  color: rgb(0, 0, 0);
+  margin-top: 90%;
+  margin-left: -15%;
+  width: 100%;
+  position: absolute;
+}
+.lanca2 .sobre2 {
+  background-color: rgba(255, 255, 255, 0.521);
+  color: rgb(0, 0, 0);
+  margin-top: 115%;
+  margin-left: -15%;
+  width: 100%;
+  position: absolute;
+  
+}
+.lanca3 .sobre2 {
+  background-color: rgba(255, 255, 255, 0.521);
+  color: rgb(0, 0, 0);
+  margin-top: 70%;
+  margin-left: -15%;
+  width: 100%;
+  position: absolute;
+  
+}
+.lanca4 .sobre2 {
+  background-color: rgba(255, 255, 255, 0.521);
+  color: rgb(0, 0, 0);
+  margin-top: 70%;
+  margin-left: -15%;
+  width: 100%;
+  position: absolute;
+  
+}
+.lanca5 .sobre2 {
+  background-color: rgba(255, 255, 255, 0.521);
+  color: rgb(0, 0, 0);
+  margin-top: 70%;
+  margin-left: -15%;
+  width: 100%;
+  position: absolute;
+  
+}
+.sobre2 {
+  background-color: rgba(255, 255, 255, 0.521);
+  color: rgb(0, 0, 0);
+  margin-top: 100%;
+  margin-left: -15%;
+  width: 100%;
+  position: absolute;
+  
 }
